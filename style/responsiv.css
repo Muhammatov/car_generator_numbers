@@ -1,0 +1,37 @@
+@media screen and (max-width:1046.98px) {
+     .site .generator{
+          width: 80%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          gap: 30px;
+     }
+}
+@media screen and (max-width:519.98px) {
+     .site .generator{
+          gap: 52px;
+     }
+     .site .generator .right .tablo{
+          width: 80%;
+     }
+     .site .generator .right .tablo h3{
+          font-size: 35px;
+          
+     }
+}
+@media screen and (max-width:410.98px) {
+     .site .generator .right .tablo{
+          width: 70%;
+     }
+     .site .generator .right .tablo h3{
+          font-size: 25px;
+     }
+}
+@media screen and (max-width:349.98px) {
+     .site .generator .right .tablo{
+          width: 80%;
+     }
+     .site .generator .right .tablo h3{
+          font-size: 23px;
+     }
+}

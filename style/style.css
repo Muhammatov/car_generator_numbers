@@ -1,0 +1,135 @@
+* {
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+}
+
+.site {
+     width: 100%;
+     height: auto;
+     background-color: indigo;
+     overflow: hidden;
+}
+
+.site .text {
+     width: 60%;
+     height: auto;
+     border-bottom: 1px solid #fff;
+     margin: 30px auto;
+     text-align: center;
+     line-height: 40px;
+     font-size: 25px;
+     color: #fff;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.site .generator {
+     width: 80%;
+     height: auto;
+     /* border: 1px solid orange; */
+     margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content:center;
+     padding: 109.5px 15px !important;
+     flex-wrap: wrap;
+     gap: 15px;
+}
+
+.site .generator .left {
+     width: 255px;
+     height: auto;
+     /* border: 1px solid yellow; */
+}
+
+.site .generator .right {
+     width: 550px;
+     height: auto;
+     /* border: 1px solid yellow; */
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     gap: 30px;
+}
+
+.site .generator .right .tablo2 {
+     width: 62%;
+     height: 120px;
+     background-color: #FBAB7E;
+     background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+     border-radius: 10px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+
+}
+.site .generator .right .tablo2 span{
+     font-size: 35px;
+     font-weight: 600;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.site .generator .right .tablo2 .mln{
+     
+}
+
+.site .generator .right .tablo {
+     width: 62%;
+     height: 120px;
+     /* border: 1px solid green; */
+     background-color: #8BC6EC;
+     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 12px;
+}
+
+.site .generator .right .tablo h3 {
+     font-size: 40px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-transform: uppercase;
+}
+
+.site .generator .left select {
+     width: 100%;
+     height: 30px;
+     border-radius: 10px;
+     font-size: 18px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin-top: 16px;
+}
+
+.site .generator .left input {
+     width: 100%;
+     height: 40px;
+     margin-top: 16px;
+     padding: 0px 10px;
+     background-color: #111;
+     color: orange;
+     border: none;
+     border-radius: 6px;
+     outline: none;
+
+}
+
+.site .generator .left input::placeholder {
+     color: orange;
+     font-family: cursive;
+     font-size: 16px;
+     background-color: #111;
+}
+
+.site .generator .left .res {
+     width: 200px;
+     height: 30px;
+     margin-top: 15px;
+     border-radius: 10px;
+     border: none;
+     cursor: pointer;
+     font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+}
